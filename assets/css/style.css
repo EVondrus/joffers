@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -25,9 +25,22 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 2px 2px 1rem #2b2929;
+    box-shadow: 2px 2px 1rem #100B00;
 
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #100B00;
+}
+
 
 /* Main content */
 main {
