@@ -13,26 +13,31 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-/* Generic project styles */
+    /* Generic project styles */
     color: #2b2929;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: burlywood;
+    background-color: #FFA630;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 2px 2px 1rem #2b2929;
 
 }
 
 /* Main content */
 main {
-    background-color: cadetblue;
-/* Make main element take up any surplus space to push footer down */
+    background-color: #004E64;
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 
 }
 
 /* Footer */
 footer {
-    background-color: darkkhaki;
+    background-color: #FDFFFC;
 }
