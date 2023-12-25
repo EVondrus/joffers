@@ -14,18 +14,22 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #2b2929;
+    color: #FDFFFC;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 header {
     background-color: #FFA630;
+    color: #2b2929;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 2px 2px 1rem #100B00;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 
@@ -43,12 +47,12 @@ h1 {
 }
 
  .logo-image {
-     width: 80px;
-     height: 80px;
+     width: 50px;
+     height: 50px;
      border-radius: 50%;
      overflow: hidden;
-     margin-top: 10px;
-     margin-bottom: 10px;
+     margin-top: 8px;
+     margin-bottom: 0px;
  }
 
  .logo-image img {
@@ -80,6 +84,20 @@ nav {
     padding: 0 1rem;
     box-shadow: 2px 2px 1rem #100B00;
     display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -87,6 +105,7 @@ main {
     background-color: #004E64;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 66px;
 
 }
 
