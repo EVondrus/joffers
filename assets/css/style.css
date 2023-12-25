@@ -47,7 +47,7 @@ h1 {
      height: 80px;
      border-radius: 50%;
      overflow: hidden;
-     margin-top: 20px;
+     margin-top: 10px;
      margin-bottom: 10px;
  }
 
@@ -69,6 +69,17 @@ h1 {
 
 .active {
     border-bottom: 1px solid #2b2929;
+}
+
+/* Navbar style with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #FFA630;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 2px 2px 1rem #100B00;
+    display: none;
 }
 
 /* Main content */
