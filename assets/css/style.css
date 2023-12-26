@@ -178,18 +178,17 @@ footer {
     }
     /* Logo */
         .logo-image {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         margin-bottom: 5px
+        }
 
 
     /* Main content */
-    main {
+main {
         /* Push main content down to fit larger header */
-        margin-top: 77px;
+        margin-top: 90px;
     }
-
-}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
