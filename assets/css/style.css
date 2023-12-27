@@ -202,7 +202,12 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
+    /* Menu */
     #menu a:hover {
         border-bottom: 1px solid #100B00;
+    }
+    /* Hero section */
+    #hero {
+        height: 100vh;
     }
 }
