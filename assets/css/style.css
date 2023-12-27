@@ -106,12 +106,20 @@ nav {
 
 /* Main content */
 main {
-    background-color: #004E64;
+    
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 60px;
-
 }
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-img.webp") no-repeat center center/cover;
+    background-color: #004E64;
+}
+
 
 /* Footer */
 
@@ -125,6 +133,8 @@ footer {
     font-family: 'Raleway', sans-serif;
     color: #2b2929;
     text-align: center;
+    /* Reduce font size */
+    font-size: 15px;
 }
 
 #media-contact {
