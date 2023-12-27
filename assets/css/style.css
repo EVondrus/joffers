@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #FDFFFC;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2, h3 {
@@ -144,13 +144,35 @@ main {
     text-transform: lowercase;
 }
 
+p{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
 #cover-paragraph {
-    font-size: 100%;
+    font-size: 85%;
     text-align: center;
     position: absolute;
-    top: 65%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
+#cover-p1 {
+    font-size: 100%;
+    margin-bottom: 5px;
+}
+#cover-p2 {
+    font-size: 80%;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cover-p3 {
+    font-size: 70% ;
+}
+
 
 /* Footer */
 footer {
