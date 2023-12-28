@@ -125,7 +125,7 @@ main {
     width: 100%;
     background: url("../images/hero-img.webp") no-repeat center center/cover;
     background-color: #004E64;
-    position: relative;
+    position: relative;  
 }
 
 #cover-text {
@@ -230,6 +230,35 @@ p {
 
 .chevron-link:hover {
     color: #004E64;
+}
+
+/* Become section */
+#become {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#become h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 100%;
+}
+
+#become h3 {
+    font-size: 85%;
+    letter-spacing: 1px;
+    color:#FFA630;
+}
+
+#desire-travel>div,
+#desire-self>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#desire p {
+    font-size: 70%;
+    padding: 0 20px;
 }
 
 /* Footer */
