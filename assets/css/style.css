@@ -25,6 +25,20 @@ h2, h3 {
     color: #FDFFFC
 }
 
+.button {
+    background-color: #FFA630;
+    border: none;
+    border-radius: 25px;
+    color: #2b2929;
+    width: 150px;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
 /* Header */
 header {
     background-color: #FFA630;
@@ -172,7 +186,41 @@ p{
 #cover-p3 {
     font-size: 70% ;
 }
+/* Button */
+#cover-btn {
+    text-align: center;
+    position: absolute;
+    top: 481px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+/* Link icon Chevron */
+#cover-link {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+}
+
+.chevron-link {
+    color: #FDFFFC;
+    font-size: 11px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.chevron-link i {
+    margin-left: 5px; 
+
+}
 
 /* Footer */
 footer {
