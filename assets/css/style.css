@@ -188,6 +188,7 @@ p {
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .button:hover {
     background-color: #004E64;
     color: #FDFFFC;
@@ -202,7 +203,8 @@ p {
 }
 
 /* Link Chevron Styles */
-#cover-link {
+#cover-link,
+#become-link {
     position: absolute;
     top: 90%;
     left: 50%;
@@ -223,13 +225,13 @@ p {
     align-items: center;
 }
 
+.chevron-link:hover {
+    color: #004E64;
+}
+
 .chevron-link i {
     margin-left: 5px; 
 
-}
-
-.chevron-link:hover {
-    color: #004E64;
 }
 
 /* Become section */
@@ -252,6 +254,10 @@ p {
     padding: 0px 15px;
 }
 
+#desire {
+    margin-top: 20px;
+}
+
 #desire-travel>div,
 #desire-self>div {
     line-height: 20px;
@@ -262,10 +268,45 @@ p {
     font-size: 70%;
     padding: 0 20px;
 }
+
+/* Become img*/
+#palm-cover-bg {
+    position: absolute;
+    background: url('../images/become-img.png') no-repeat top center / cover;
+    height: 105vw;
+    width: 93vw;
+    margin-bottom: 420px;
+    opacity: 0.2;
+    max-width: 333px;
+    max-height: 377px;
+}
+
+#become-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 hr {
     border-top: 1px solid #2b2929;
     margin: 5px 15px;
 }
+
+/* Button */
+#become-btn {
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+    top: 296%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#become-link {
+    position: relative;
+    margin-top: 10px
+}
+
 
 /* Footer */
 footer {
