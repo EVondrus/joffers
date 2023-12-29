@@ -235,19 +235,21 @@ p {
 /* Become section */
 #become {
     width: 90%;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 #become h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 100%;
+    padding: 0px 10px;
 }
 
 #become h3 {
     font-size: 85%;
     letter-spacing: 1px;
     color:#FFA630;
+    padding: 0px 15px;
 }
 
 #desire-travel>div,
@@ -259,6 +261,10 @@ p {
 #desire p {
     font-size: 70%;
     padding: 0 20px;
+}
+hr {
+    border-top: 1px solid #2b2929;
+    margin: 5px 15px;
 }
 
 /* Footer */
