@@ -301,10 +301,19 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#become-btn:hover {
+background-color: #FDFFFC;
+color: #004E64;
+}
 
+/* Chevron links */
 #become-link {
     position: relative;
-    margin-top: 10px
+    margin-top: 10px;
+}
+
+.chevron-become:hover {
+    color:#FFA630;
 }
 
 
@@ -411,9 +420,54 @@ footer {
     }
 
     .chevron-link {
-            font-size: 14px;
-        }
+        font-size: 14px;
+    }
 
+/* Become section */
+    #become h2 {
+     font-size: 25px;
+    }
+
+    #become h3 {
+    font-size: 15px;
+    }
+
+    #desire {
+    margin-top: 35px;
+    }
+
+    #desire p {
+    font-size: 80%;
+    }
+
+    #desire-travel,
+    #desire-self {
+        display: flex;
+        width: 100%;
+    }
+/* Make space between divs*/
+    #desire-self {
+        padding-top: 70px;
+    }
+
+    #desire-travel>div,
+    #desire-self>div {
+        width: 75%;
+    }
+
+    .desire-right{
+        margin-left: 100px;
+        text-align: right;
+    }
+
+    #become-btn-div{
+        margin-top: 20px;
+    }
+/*Become links */
+    #become-link{
+        margin-top: -25px;
+        width: 90%;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
