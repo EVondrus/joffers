@@ -241,17 +241,17 @@ p {
 }
 
 #become h2 {
-    margin-bottom: 20px;
     text-align: center;
-    font-size: 100%;
+    font-size: 1.5rem;
+    margin-top: 65px;
+    margin-bottom: 35px;
     padding: 0px 10px;
 }
 
 #become h3 {
-    font-size: 85%;
-    letter-spacing: 1px;
+    font-size: 1rem;
     color:#FFA630;
-    padding: 0px 15px;
+    padding: 10px 15px;
 }
 
 #desire {
@@ -265,7 +265,7 @@ p {
 }
 
 #desire p {
-    font-size: 70%;
+    font-size: .8rem;
     padding: 0 20px;
 }
 
@@ -275,10 +275,12 @@ p {
     background: url('../images/become-img.png') no-repeat top center / cover;
     height: 105vw;
     width: 93vw;
-    margin-bottom: 420px;
+    margin-bottom: 720px;
     opacity: 0.2;
-    max-width: 333px;
-    max-height: 377px;
+    max-width: 465px;
+    max-height: 530px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #become-image {
@@ -292,7 +294,8 @@ hr {
     margin: 5px 15px;
 }
 
-/* Button */
+/* Button*/
+
 #become-btn {
     margin-top: 25px;
     text-align: center;
@@ -310,6 +313,7 @@ color: #004E64;
 #become-link {
     position: relative;
     margin-top: 10px;
+    width: 90vw;
 }
 
 .chevron-become:hover {
@@ -463,7 +467,15 @@ footer {
     #become-btn-div{
         margin-top: 20px;
     }
+/* /* Become img  */
+    #palm-cover-bg {
+        margin-bottom: 50vh;
+    }
 /*Become links */
+    #become-link-div {
+    padding-top: 1em;
+    }
+
     #become-link{
         margin-top: -25px;
         width: 90%;
@@ -488,5 +500,7 @@ footer {
         left: 400px;
     }
 
-
+        #palm-cover-bg {
+            margin-top: 30vh;
+        }
 }
