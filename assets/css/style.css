@@ -428,20 +428,9 @@ footer {
     }
 
 /* Become section */
-    #become h2 {
-     font-size: 25px;
-    }
-
-    #become h3 {
-    font-size: 15px;
-    }
 
     #desire {
     margin-top: 35px;
-    }
-
-    #desire p {
-    font-size: 80%;
     }
 
     #desire-travel,
@@ -478,7 +467,7 @@ footer {
 
     #become-link{
         margin-top: -25px;
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -495,12 +484,32 @@ footer {
     }
 
     #cover-paragraph{
-        /* Adjust the position */
+    /* Adjust the position */
         top: 130px;
         left: 400px;
     }
-
+    /* Become section */
         #palm-cover-bg {
             margin-top: 30vh;
-        }
+    }
+}
+
+/* Large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Become section*/
+    #desire {
+        padding: 0px 4%;
+}
+    .desire-right {
+        padding-left: 8%;
+    }
+
+    .desire-left {
+        padding-right: 8%;
+    }
+
+    #palm-cover-bg {
+        margin-bottom: 50vh;
+    }
+
 }
