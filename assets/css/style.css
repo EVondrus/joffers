@@ -332,20 +332,36 @@ color: #004E64;
     justify-content: center;
 }
 
+#expect-title{
+    margin: 35px 0px;
+    text-align: center;
+}
+
+/* FIX FLEXBOX 
+#expect {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
 .expect-box {
     color: #FDFFFC;
     background-color: rgba(255, 166, 48, 0.8);
     margin-top: 25px;
     padding: 10px 15px;
     text-align: center;
-    /* This will not wrap on screens of less than 400px wide.
+    /* Not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
-    /* flex-basis: 200px; */
-    flex-grow: 1;
+    /* flex-basis: 200px; 
+    flex-grow: 1; /*
     /* Create a rounded grid of expectation div over the background image */
     border: 2px solid white;
     border-radius: 25px;
 }
+
+
 
 #expectation h3 {
     color: #004E64;
