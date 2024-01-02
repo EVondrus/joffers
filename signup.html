@@ -43,7 +43,40 @@
     </header>
 
     <!-- Main content -->
-    <main>Join Our Team!</main>
+    <main>
+        <section id="join-us">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Let's sign up!</h2>
+                <p>Fill out the form and recieve an email back within 24h, with the link to the job application form and
+                    more info!</p>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="18" max="40" step="1" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <h3>Work preference</h3>
+                    <div><label for="sport">Sport & Fitness</label>
+                        <input type="radio" name="work_preference" id="sport" value="sport" required checked>
+                    </div>
+                    <div><label for="kids">Kids Club</label>
+                        <input type="radio" name="work_preference" id="kids" value="kids" required>
+                    </div>
+                    <div><label for="both">Both</label>
+                        <input type="radio" name="work_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button button">Start My Journey!</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
