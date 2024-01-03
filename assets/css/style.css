@@ -383,7 +383,7 @@ color: #004E64;
     width: 90vw;
 }
 
-/* Sign Up page - Form */
+/* Sign-Up Form page */
 #join-us {
     background-image: url("../images/expect-img.png");
     background-size: cover;
@@ -400,8 +400,8 @@ color: #004E64;
 }
 
 #signup-form>h2 {
-    font-size: 24px;
-    margin-top: 5px;
+    font-size: 35px;
+    margin-top: 10px;
 }
 
 #signup-form>p {
@@ -428,13 +428,13 @@ color: #004E64;
 }
 
 #form-btn-div{
-    margin-top: 25%;
+    margin-top: 28%;
 }
 
 #form-btn {
     background-color: #004E64;
     color: #FDFFFC;
-    margin-top: 25px;
+    margin-top: 80px;
     padding: 2px 0px;
     text-decoration: underline #FFA630;
 }
@@ -443,7 +443,6 @@ color: #004E64;
     background-color: #FDFFFC;
     color: #FFA630;
 }
-
 
 
 
@@ -630,14 +629,15 @@ footer {
     }
 
     .radio-buttons {
-        width: 90%;
-        margin: 15px;
+        width: 93%;
+        margin: 10px;
         display: flex;
         justify-content: space-between;
     }
 
     #form-btn {
         width: 75%;
+        margin-top: 45px;
     }
 }
 
@@ -661,6 +661,11 @@ footer {
     /* Become section */
         #palm-cover-bg {
             margin-top: 10em;
+    }
+
+    /* Sign-up Form page */
+    #form-btn {
+        margin-top: 10px;
     }
 }
 
