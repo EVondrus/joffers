@@ -238,7 +238,7 @@ p {
 
 }
 
-/* Become section */
+/* Become Section */
 #become {
     width: 90%;
     margin: 40px auto;
@@ -326,7 +326,7 @@ color: #004E64;
     color:#FFA630;
 }
 
-/* Expectation section */
+/* Expectation Section */
 #expectation {
     background: url('../images/expect-img.png') no-repeat top center / cover;
     background-color: #004E64;
@@ -426,7 +426,7 @@ color: #004E64;
     font-size: 14px;
     margin-top: 5px;
 }
-
+/* Button styles */
 #form-btn-div{
     margin-top: 28%;
 }
@@ -443,6 +443,89 @@ color: #004E64;
     background-color: #FDFFFC;
     color: #FFA630;
 }
+
+/* Job Offers Page*/
+#job-title {
+    text-align: center;
+    margin: 25px;
+    font-size: larger;
+}
+
+#job-title h3 {
+    font-size: medium;
+    color: #FFA630;
+    margin-top: 10px;
+}
+
+/* Offers styles */
+#offers {
+    margin: 3% 10%;
+}
+
+#offers .column ul li {
+    margin-bottom: 10px;
+    /* Improve readability with increased line height */
+    line-height: 1.5; 
+}
+
+/* Cherry container */
+#cherry {
+    margin: 0 30px 30px;
+    padding: 20px;
+    background-color: rgba(255, 166, 48, .7);
+    border: 2px solid #fff;
+    border-radius: 30px;
+    box-shadow: 0 8px 25px rgba(253, 255, 252, .5);
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+/* Open positions title */
+#positions {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Jobs container styles */
+#jobs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    /* Add transition effect */
+    transition: all 400ms ease;
+}
+
+#jobs .job:hover {
+transform: scale(1.03);
+}
+
+
+#jobs > div {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #FFA630;
+    border-radius: 10px;
+}
+
+#jobs i {
+    color: #2b2929;
+    margin-right: 4%;
+}
+
+#jobs h3 {
+    color: #004E64;
+    font-size: medium;
+    padding: 5px;
+}
+
 
 
 
@@ -553,7 +636,7 @@ footer {
         font-size: 14px;
     }
 
-/* Become section */
+    /* Become section */
     #desire {
     margin-top: 35px;
     }
@@ -563,7 +646,7 @@ footer {
         display: flex;
         width: 100%;
     }
-/* Make space between divs*/
+    /* Make space between divs*/
     #desire-self {
         padding-top: 70px;
     }
@@ -581,7 +664,8 @@ footer {
     #become-btn-div{
         margin-top: 20px;
     }
-/* /* Background image  */
+
+    /* Background image */
     #palm-cover-bg {
     /*Center the img*/
     margin-bottom: 32em;
@@ -593,13 +677,13 @@ footer {
         width: 90vw;
     }
 
-    /* Expectation section */
-
+/* Expectation section */
     #expect-btn {
         margin-top: 35px;
         margin-bottom: -25%;
     }
-    /* Sign-up Form page */
+
+/* Sign-up Form page */
     #join-us {
         background-position: center;
         position: relative;
@@ -639,6 +723,17 @@ footer {
         width: 75%;
         margin-top: 45px;
     }
+
+/* Job Offers Page */
+   #offers { display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+   .column {
+    /* Adjust the width as needed, leaving a small gap between columns */
+    width: 40%; 
+}
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
