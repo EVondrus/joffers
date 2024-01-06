@@ -446,13 +446,13 @@ color: #004E64;
 }
 
 /* Job Offers Page*/
-#job-title {
+.title {
     text-align: center;
     margin: 50px 25px 25px;
     font-size: larger;
 }
 
-#job-title h3 {
+.title h3 {
     font-size: medium;
     color: #FFA630;
     margin-top: 10px;
@@ -553,18 +553,45 @@ color: #004E64;
 }
 
 /* About Us Page */
+
+.paragraph-container{
+    margin: 10px;
+    padding: 0px 25px;
+}
+
+.paragraph-container p {
+    margin-bottom: 10px;
+    /* Improve readability with increased line height */
+    line-height: 1.5; 
+}
+
+.box {
+    margin: 30px 25px;
+    padding: 20px;
+    background-color: rgba(255, 166, 48, .7);
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+
 .about-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .about-img-container img {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     border-radius: 50%;
-    
 }
 
+#names {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: small;
+}
 
 /* Footer */
 footer {
@@ -768,8 +795,14 @@ footer {
    }
 
    .column {
-    /* Adjust the width as needed, leaving a small gap between columns */
+    /* Adjust the width as needed, leaving a gap between columns */
     width: 40%; 
+}
+
+/* About us page */
+.paragraph-container {
+    margin: 20px;
+    padding: 10px 40px;
 }
 }
 

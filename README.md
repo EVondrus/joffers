@@ -69,4 +69,3 @@ The page features a clean design with an engaging background image, showcasingâ€
 
 The footer section of Joffers Tourism Entertainment is designed for easy connectivity, featuring links to our Instagram, Facebook, and email. These links open in new tabs, providing seamless navigation for users to stay updated on our social media channels or reach out via email. The footer serves as a convenient hub for users to connect with Joffers through various online platforms, ensuring accessibility and engagement.
 
-
