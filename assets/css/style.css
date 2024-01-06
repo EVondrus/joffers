@@ -542,7 +542,7 @@ color: #004E64;
 #jobs-btn {
     top: -45px;
 }
-
+/* Changed color to be visible */
 #jobs-btn:hover {
     background-color: #FDFFFC;
     color: #004E64;
@@ -550,6 +550,19 @@ color: #004E64;
 
 .hover-orange:hover {
     color: #FFA630;
+}
+
+/* About Us Page */
+.about-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
 }
 
 
