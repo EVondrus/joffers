@@ -208,7 +208,8 @@ p {
 /* Link Chevron Styles */
 #cover-link,
 #become-link,
-#expect-link {
+#expect-link,
+#jobs-link {
     position: absolute;
     top: 90%;
     left: 50%;
@@ -447,7 +448,7 @@ color: #004E64;
 /* Job Offers Page*/
 #job-title {
     text-align: center;
-    margin: 25px;
+    margin: 50px 25px 25px;
     font-size: larger;
 }
 
@@ -457,7 +458,7 @@ color: #004E64;
     margin-top: 10px;
 }
 
-/* Offers styles */
+/* Job Offers styles */
 #offers {
     margin: 3% 10%;
 }
@@ -502,7 +503,7 @@ color: #004E64;
 }
 
 #jobs .job:hover {
-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 
@@ -526,7 +527,30 @@ transform: scale(1.03);
     padding: 5px;
 }
 
+.button-link-container {
+    position: relative;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 80px 0 40px 0;
+}
 
+#jobs-btn {
+    top: -45px;
+}
+
+#jobs-btn:hover {
+    background-color: #FDFFFC;
+    color: #004E64;
+}
+
+.hover-orange:hover {
+    color: #FFA630;
+}
 
 
 /* Footer */
