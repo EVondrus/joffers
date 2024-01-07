@@ -583,14 +583,15 @@ color: #004E64;
     height: 220px;
     width: 220px;
     border-radius: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 #names {
-    display: flex;
-    justify-content: center;
     text-align: center;
-    margin: 20px 0px;
     font-size: small;
+    margin: 20px 0px;
+    padding-bottom: 15px;
 }
 
 /* Footer */
@@ -795,7 +796,7 @@ footer {
    }
 
    .column {
-    /* Adjust the width as needed, leaving a gap between columns */
+    /*Leaving a gap between columns */
     width: 40%; 
 }
 
@@ -803,6 +804,15 @@ footer {
 .paragraph-container {
     margin: 20px;
     padding: 10px 40px;
+}
+
+.box {
+    margin: 20px 45px;
+    padding: 10px;
+}
+
+.about-img-container {
+    padding: 10px;
 }
 }
 
@@ -832,10 +842,25 @@ footer {
     #form-btn {
         margin-top: 10px;
     }
+
+    /* About us Page */
+
+    .about-container {
+        margin-top: 60px;
+    }
+    
+    .about-text {
+        margin: 35px 200px 65px;
+    }
+
+    .box {
+        margin: 25px 45px;
+    }
 }
 
 /* Large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
+
     /* Become section*/
     #desire {
         padding: 0px 4%;
