@@ -194,6 +194,14 @@ p {
     font-size: 1em;
     margin: 4px 2px;
     cursor: pointer;
+    text-align: center;
+    /* Position button on page */
+    position: absolute;
+    top: 485px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    display: inline-block;
 }
 
 .button:hover {
@@ -438,9 +446,16 @@ hr {
 #form-btn {
     background-color: #004E64;
     color: #FDFFFC;
-    width: 100%;
-    margin-top: 25px;
+    font-size: 1em;
     text-decoration: underline #FFA630;
+    border: none;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
     
 }
 
@@ -858,6 +873,7 @@ footer {
     /* Sign-up Form page */
     .text-input {
         width: 100%;
+
         margin-bottom: 15px;
     }
 
