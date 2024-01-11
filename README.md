@@ -2,21 +2,19 @@
 
 Welcome to Our World of Adventure and Entertainment in hotel and resorts all over Croatia!
 
-## Overview
-
 We are **JOFFERS**, your first step to a gateway to exciting tourism entertainment opportunities in Croatia.
 Founded by Ellenor and Mladen, with over 6 years of industry expertise, having served as team managers within the renowned Love Carpe Diem (LCD) tourism entertainment company.
 
-## Our Collaboration with Love Carpe Diem
+### Our Collaboration with Love Carpe Diem
 
 As a collaboration partner of Love Carpe Diem, JOFFERS has a proven track record of success. We are enthusiastic about inviting both new and experienced entertainers, as well as aspiring team managers, to join the "LCD" family through JOFFERS.
 
-## Our Mission
+### Our Mission
 
 At JOFFERS, our mission goes beyond offering jobs; it's an invitation to a global adventure.
 We strive to expand our network by building partnerships with reliable and trustworthy companies, creating more avenues for growth and exploration in the dynamic field of tourism entertainment.
 
-## Your Rewarding Career Awaits
+### Your Rewarding Career Awaits
 
 Embark on a journey where professionalism meets fun, and each day opens doors to endless possibilities. Join JOFFERS and kickstart your captivating career in the world of tourism entertainment, we are here to support you all the way!
 
@@ -24,13 +22,14 @@ Embark on a journey where professionalism meets fun, and each day opens doors to
 
 **Ellenor Vondrus & Mladen Djurdjevic*
 
+## Overview
 
-## Target Audience
+### Target Audience
 
 Our vibrant opportunities are crafted for individuals aged 18 to 30, holding European, Bosnian, and Serbian passports. We embrace a gender-inclusive approach, welcoming both males and females. If you're an positive and energetic indivitual, passionate about working with kids, engaging in family activities, and/or participating in sports, you're the perfect fit for our diverse team.
 
 
-## Site Owner Goals
+### Site Owner Goals
 
 - **Informative Content:** Provide comprehensive information about the benefits of becoming a tourism entertainer through JOFFERS, with a focus on the unique experiences offered from the employing company LOVE CARPE DIEM.
 
@@ -94,11 +93,15 @@ I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and 
 
 - To enhance visibility, a subtle drop shadow distinguishes the navigation bar from other page elements, especially during scrolling.
 
+![Nav bar image]()
+
 ### Call-to-Action
 
 - A prominent button serves as a clear call-to-action, inviting users to sign up and read more.
 
 - Additional links with chevron icons direct and encourage users to other sections of the website for further exploration.
+
+![Buttons image]()
 
 
 ## The Home Page
@@ -111,6 +114,8 @@ I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and 
 
 - With internal links at the bottom of the section, which is consitant throughout the site, calls-to-action encouraging user to click to sign up or explore the site further. 
 
+![Hero section image]()
+
 
 ### Become Section
 
@@ -119,6 +124,8 @@ I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and 
 - Captivating descriptions are complemented by an enticing image, with clear calls-to-action, inviting users to explore further.
 
 - This section aims to showcase the unique and fulfilling aspects of becoming a Tourism Entertainer, encouraging users to delve deeper into the opportunities available.
+
+![Become section image]()
 
 
 ### Expectation Section
@@ -131,6 +138,8 @@ I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and 
 
 - With clear navigation, it's designed to provide a comprehensive understanding of what Joffers brings to your journey.
 
+![Expectation section image]()
+
 
 ## Join Us Page
 
@@ -140,6 +149,7 @@ I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and 
 
 - Upon submission, an email within 24 hours delivers a link to the job application form and additional information, initiating the exciting journey.
 
+
 ### Form Elements
 
 1. **First Name**: Input field for the user's first name.
@@ -147,6 +157,9 @@ I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and 
 3. **Age**: Numeric input for the user's age (between 18 and 40).
 4. **Email Address**: Input field for the user's email address.
 5. **Work Preference**: Radio buttons for selecting work preferences, including options for sports, kids, or both.
+6. **Submit button**: Button for submitting the form.
+
+![Join Us page image]()
 
 
 ## Job Offers Page
@@ -157,29 +170,31 @@ I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and 
 
 - A compelling message emphasizes the adventurous aspect of the offered positions.
   
-![Offers section image](docs/readme_images/jobs_offers.png)
-
-
 ### Open Positions Section
 
 - The "Open Positions" header introduces job opportunities with engaging icons.
 
 - Individual job listings for Sport & Fitness Entertainer, Kids Entertainer, and All-round Entertainer provide detailed descriptions.
   
-![Jobs section image](docs/readme_images/jobs_positions.png)
+![Jobs section image]()
 
-### Call-to-Action Buttons
-
-- A prominent "Join Our Team!" button serves as a clear call-to-action, inviting users to explore job opportunities.
+- The prominent "Join Our Team!" button serves as a clear call-to-action, inviting users to explore job opportunities.
 
 - Additional links direct users to other sections of the website for further exploration.
 
-![Buttons image](docs/readme_images/jobs_buttons.png)
-
+## Learn More page
+-
+-
 
 ### Footer
 
 The footer section of Joffers Tourism Entertainment is designed for easy connectivity, featuring links to our Instagram, Facebook, and email. These links open in new tabs, providing seamless navigation for users to stay updated on our social media channels or reach out via email. The footer serves as a convenient hub for users to connect with Joffers through various online platforms, ensuring accessibility and engagement.
+
+
+### Features Left to Implement
+- Create a FAQ page.
+- Create a 404page to display in case of any broken links.
+- Create a Thank you page to display when submitting the Sign up form.
 
 
 ## Technologies Used
@@ -188,7 +203,42 @@ The footer section of Joffers Tourism Entertainment is designed for easy connect
 - HTML5
 - CSS
 
-### Frameworks, Libraries, and Tools
+## Testing 
+
+### Validator Testing
+- #### HTML
+    - No errors were returned when passing through the official W3C Markup Validator
+        - [W3C Validator Results]()
+- #### CSS
+    - No errors were found when passing through the official W3C CSS Validator 
+        - [W3C CSS Validator Results]()
+- #### Accessibility 
+    - 
+    ![Lighthouse score]()
+
+ ### Form Testing
+- The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
+
+### Links Testing
+- All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+- Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
+
+### Browser Testing
+-
+
+### Device Testing
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended.
+- I also used the following websites to test responsiveness:
+    - [Responsinator]()
+    - [Am I Responsive]()
+
+### Friends and Family User Testing
+Friends were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Unfixed Bugs
+
+
+### Libraries - Programs - Frameworks
 - [Am I Responsive](http://ami.responsivedesign.is/) - Verify website responsiveness on various devices.
 - [Responsinator](http://www.responsinator.com/) - Check responsiveness on different devices.
 - [Balsamiq](https://balsamiq.com/) - Generate wireframe images.
@@ -198,6 +248,7 @@ The footer section of Joffers Tourism Entertainment is designed for easy connect
 - [Google Fonts](https://fonts.google.com/) - Import and alter fonts on the page.
 - [TinyPNG](https://tinypng.com/) - Compress images without a reduction in quality.
 - [W3C](https://www.w3.org/) - HTML & CSS Validation.
+
 
 ## Deployment
 
@@ -210,9 +261,13 @@ The project was deployed using GitHub Pages. Follow these steps for deployment:
 5. Click 'Save'.
 6. Deployment is confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
-[Explore JOFFERS]
+[Explore JOFFERS]()
+
 ### Media
 
 ### Resources Used
 
 ## Acknowledgments
+- Mentor Antonio
+- Code Institute
+- 
