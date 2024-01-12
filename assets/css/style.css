@@ -236,7 +236,7 @@ p {
 }
 
 .chevron-link:hover {
-    color: #004E64;
+    color: #FFA630;
 }
 
 .chevron-link i {
@@ -335,9 +335,9 @@ hr {
 }
 
 /* Expectation Section */
+
 #expectation {
-    background: url('../images/expect-img.png') no-repeat top center / cover;
-    background-color: #004E64;
+    background-color:#FFA630;
     /* Handles responsivity without the need for a media query?? */
     display: flex;
     flex-wrap: wrap;
@@ -345,27 +345,23 @@ hr {
 }
 
 #expect-title {
-    margin: 35px 0px;
+    margin: 60px auto 20px;
     text-align: center;
 }
 
 .expect-box {
     color: #FDFFFC;
-    background-color: rgba(255, 166, 48, 0.8);
-    margin-top: 25px;
+    background-color: rgba(0, 78, 100, 1);
+    margin: 25px;
     padding: 10px 15px;
     text-align: center;
-    /* Not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
-    /* flex-basis: 200px; 
-    flex-grow: 1; /*
     /* Create a rounded grid of expectation div over the background image */
     border: 2px solid white;
     border-radius: 25px;
 }
 
 #expectation h3 {
-    color: #004E64;
+    color: #FFA630;
 }
 
 .p-bold {
@@ -380,6 +376,21 @@ hr {
 #expect-link {
     position: relative;
     width: 90vw;
+}
+
+.teal:hover {
+    color: #004E64;
+}
+
+
+#expect-btn {
+    background-color: #004E64;
+    color: #FDFFFC;
+}
+
+#expect-btn:hover {
+    background-color: #FDFFFC;
+    color: #004E64;
 }
 
 /* Sign-Up Form page */
