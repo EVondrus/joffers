@@ -620,7 +620,7 @@ hr {
 /* Learn More page */
 
 #learn-section {
-    background: url(../images/hotel-img.png) no-repeat top center / cover;
+    background: url(../images/hotel-img.webp) no-repeat top center / cover;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
