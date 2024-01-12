@@ -80,19 +80,32 @@ The Joffers Tourism Entertainment website predominantly uses the 'Raleway' font 
 I used Balsamiq to ensure thoughtful planning, resulting in a user-friendly and intuitive browsing experience.
 
 <details>
+<summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](docs/wireframes/wireframemobile/index.html.png)
+![Mobile Wireframe](docs/wireframes/wireframemobile/become%20section.png)
+![Mobile Wireframe](docs/wireframes/wireframemobile/expect%20section.png)
+![Mobile Wireframe](docs/wireframes/wireframemobile/signup.html.png)
+![Mobile Wireframe](docs/wireframes/wireframemobile/jobs.html%20.png)
+![Mobile Wireframe](docs/wireframes/wireframemobile/learn-more.html.png)
+![Mobile Wireframe](docs/wireframes/wireframemobile/about.html.png)
+ </details>
+
+<details>
 
  <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](docs/wireframes/wireframedesktop/)
+![Desktop Wireframe](docs/wireframes/wireframedesktop/index.html_2.png)
+![Desktop Wireframe](docs/wireframes/wireframedesktop/become%20section_2.png)
+![Desktop Wireframe](docs/wireframes/wireframedesktop/expect%20section_2.png)
+![Desktop Wireframe](docs/wireframes/wireframedesktop/signup.html_2.png)
+![Desktop Wireframe](docs/wireframes/wireframedesktop/jobs.html.png)
+![Desktop Wireframe](docs/wireframes/wireframedesktop/learn-more.html_2.png)
+![Desktop Wireframe](docs/wireframes/wireframedesktop/about.html_2.png)
+
  </details>
 
- <details>
-    <summary>Mobile Wireframe</summary>
-
-![Mobile Wireframe](docs/wireframes/wireframemobile/)
- </details>
-
-
+    
 ## Features
 
 - ### Navigation
