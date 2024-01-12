@@ -54,7 +54,7 @@ h1 {
     display: none;
 }
 
-/* Logo */
+/* Round Logo */
 .logo-image {
     width: 50px;
     height: 50px;
@@ -114,6 +114,7 @@ nav {
 }
 
 /* Main content */
+
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -245,6 +246,7 @@ p {
 }
 
 /* Become Section */
+
 #become {
     width: 90%;
     margin: 40px auto;
@@ -308,7 +310,6 @@ hr {
 }
 
 /* Button*/
-
 #become-btn,
 #expect-btn {
     margin-top: 25px;
@@ -401,7 +402,8 @@ hr {
     color: #004E64;
 }
 
-/* Sign-Up Form page */
+/* Sign-Up Page */
+
 #join-us {
     background-image: url("../images/expect-img.png");
     background-size: cover;
@@ -453,7 +455,6 @@ hr {
 }
 
 /* Button styles */
-
 #form-btn {
     background-color: #004E64;
     color: #FDFFFC;
@@ -476,6 +477,7 @@ hr {
 }
 
 /* Job Offers Page*/
+
 .title {
     text-align: center;
     margin: 50px 25px 25px;
@@ -730,6 +732,7 @@ hr {
 
 
 /* Footer */
+
 footer {
     background-color: #FDFFFC;
     box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
