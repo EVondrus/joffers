@@ -195,7 +195,7 @@ p {
     margin: 4px 2px;
     cursor: pointer;
     text-align: center;
-    /* Position button on page */
+    /* Position button absolute on page */
     position: absolute;
     top: 485px;
     left: 50%;
@@ -348,15 +348,6 @@ hr {
     margin: 35px 0px;
     text-align: center;
 }
-
-/* FIX FLEXBOX 
-#expect {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} */
 
 .expect-box {
     color: #FDFFFC;
@@ -618,6 +609,7 @@ hr {
 /* Learn More page */
 
 #learn-section {
+    background: url(../images/hotel-img.png) no-repeat top center / cover;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -652,6 +644,7 @@ hr {
     border-radius: 13px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     align-self: flex-start;
+    background-color: rgba(0, 78, 100, 0.8);
 }
 
 
@@ -685,6 +678,10 @@ hr {
 #video-container h3 {
     text-align: center;
     color: #FFA630;
+    background-color: rgba(0, 78, 100, 1);
+    border: 2px solid #fff;
+    border-radius: 13px;
+    padding: 10px;
     font-size: 1.3rem;
 }
 
@@ -874,6 +871,7 @@ footer {
     }
 
     /* Sign-up Form page */
+
     .text-input {
         width: 100%;
 
@@ -905,6 +903,7 @@ footer {
     }
 
     /* About us page */
+
     .paragraph-container {
         margin: 20px;
         padding: 10px 40px;
@@ -928,8 +927,13 @@ footer {
     }
 
     #learn-paragraphs {
-        margin: 4% 6%;
+        margin: 5%;
         width: 50%;
+    }
+
+    #video-container h3 {
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
@@ -972,6 +976,11 @@ footer {
         margin: 25px 45px;
     }
 
+    /* Learn More page */
+
+    #learn-paragraphs {
+        margin: 2% 8% 10%;
+    }
 
 
 }
