@@ -349,6 +349,10 @@ hr {
     text-align: center;
 }
 
+#expect-title h2 {
+    color: #2b2929;
+}
+
 .expect-box {
     color: #FDFFFC;
     background-color: rgba(0, 78, 100, 1);
@@ -378,8 +382,12 @@ hr {
     width: 90vw;
 }
 
-.teal:hover {
-    color: #004E64;
+.black{
+    color: #2b2929;
+}
+
+.white:hover:hover {
+    color: #FDFFFC;
 }
 
 
