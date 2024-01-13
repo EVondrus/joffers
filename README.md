@@ -44,7 +44,7 @@ Our vibrant opportunities are crafted for individuals aged 18 to 30, holding Eur
 
     - **Company Culture:** Communicate the positive and inclusive working environment at LOVE CARPE DIEM, focusing on teamwork, creativity, and the joy of entertaining.
 
-## User experiance
+## User Stories
 
  - ### First-time User
     - As a first-time user, I want to easily navigate and to understand the main purpose of the site and the opportunities it offers for work and travel in Croatia as a tourism entertainer.
